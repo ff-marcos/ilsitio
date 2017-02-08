@@ -2,23 +2,21 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
-    - field.field.node.cat.body
-    - node.type.cat
+    - field.field.node.bird.body
+    - node.type.bird
   module:
     - text
     - user
-id: node.cat.teaser
+id: node.bird.default
 targetEntityType: node
-bundle: cat
-mode: teaser
+bundle: bird
+mode: default
 content:
   body:
     label: hidden
-    type: text_summary_or_trimmed
+    type: text_default
     weight: 101
-    settings:
-      trim_length: 600
+    settings: {  }
     third_party_settings: {  }
   links:
     weight: 100

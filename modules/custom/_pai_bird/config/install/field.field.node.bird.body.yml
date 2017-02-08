@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.dog
+    - node.type.bird
   module:
     - text
-id: node.dog.body
+id: node.bird.body
 field_name: body
 entity_type: node
-bundle: dog
+bundle: bird
 label: Body
 description: ''
 required: false

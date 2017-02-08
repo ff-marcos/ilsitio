@@ -3,14 +3,14 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.dog.body
-    - node.type.dog
+    - field.field.node.bird.body
+    - node.type.bird
   module:
     - text
     - user
-id: node.dog.teaser
+id: node.bird.teaser
 targetEntityType: node
-bundle: dog
+bundle: bird
 mode: teaser
 content:
   body:
