@@ -82,7 +82,7 @@ $config['system.performance']['js']['preprocess'] = TRUE;
  * During development it can be useful to install test extensions for debugging
  * purposes.
  */
-$settings['extension_discovery_scan_tests'] = TRUE;
+$settings['extension_discovery_scan_tests'] = FALSE;
 
 /**
  * Enable access to rebuild.php.
@@ -93,3 +93,6 @@ $settings['extension_discovery_scan_tests'] = TRUE;
  * using these parameters in a request to rebuild.php.
  */
 $settings['rebuild_access'] = TRUE;
+
+
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
