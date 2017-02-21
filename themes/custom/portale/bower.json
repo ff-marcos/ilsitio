@@ -1,0 +1,22 @@
+{
+  "name": "ilsitio",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Nathan Stone <nathan@freshform.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.4",
+    "bxslider-4": "^4.2.5"
+  }
+}

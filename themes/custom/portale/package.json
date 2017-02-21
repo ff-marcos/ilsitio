@@ -1,0 +1,22 @@
+{
+  "name": "ilsitio",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-curl": "^2.2.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.0",
+    "grunt-sass-globbing": "^1.5.1",
+    "grunt-sass-lint": "^0.2.0",
+    "matchdep": "^1.0.1",
+    "node-sass": "^3.7.0",
+    "postcss-cssnext": "^2.9.0"
+  }
+}
