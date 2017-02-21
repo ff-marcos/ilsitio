@@ -1,0 +1,12 @@
+@import 'foundation';
+
+// Foundation overrides.
+//$global-font-size: 100%;
+//$global-width: rem-calc(1200);
+//$global-margin: 1rem;
+//$global-padding: 1rem;
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
