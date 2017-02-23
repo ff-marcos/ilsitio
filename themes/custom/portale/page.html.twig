@@ -57,9 +57,15 @@
     </div>{# /.layout-content #}
 
     {% if page.sidebar %}
-      <aside class="layout-sidebar-first" role="complementary">
+      <aside class="layout-sidebar" role="complementary">
         {{ page.sidebar }}
       </aside>
+    {% endif %}
+
+    {% if page.bellow_content %}
+      <div class="layout-bellow-content">
+        {{ page.bellow_content }}
+      </div>
     {% endif %}
 
   </main>
