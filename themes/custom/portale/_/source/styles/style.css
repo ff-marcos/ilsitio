@@ -1356,4 +1356,8 @@ button {
   clear: both; }
 
 body {
-  background: #340035; }
+  background: #bbbbbb;
+  color: #ffffff; }
+  body a {
+    text-decoration: none;
+    color: D75A3D; }
